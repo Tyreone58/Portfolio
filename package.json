@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "netlify dev",
+    "build": "tsc -b && netlify build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "netlify": "netlify build"
+    "preview": "netlify dev",
+    "netlify": "netlify build" 
   },
   "dependencies": {
     "react": "^18.3.1",
