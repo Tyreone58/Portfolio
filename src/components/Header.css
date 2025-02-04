@@ -1,0 +1,19 @@
+header{
+    background-color:cornflowerblue;
+    top:0;
+    position:fixed;
+    width: 100%;
+    right:10%;
+}
+header h1{
+    color:white;
+    margin: 0;
+    padding: 50px;
+}
+header h2{
+    color:white;
+    top: 30px;
+    position:fixed;
+    width: 70%;
+    left: 45%;;
+}
